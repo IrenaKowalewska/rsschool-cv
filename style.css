@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 30px;
-    background-color: rgba(71, 8, 85, 0.7);
+    background-color: rgba(71, 8, 85, 0.6);
 }
 
 .contacts .contacts-info {
@@ -53,4 +53,38 @@ body {
     font-size: 20px;
     font-weight: 300;
     color: rgb(59, 49, 49);
+}
+
+.cv {
+    padding: 10px 50px;
+    background-color: rgba(122, 7, 148, 0.2);
+}
+.cv .cv-item {
+    margin-top: 15px;
+    padding-top: 10px;
+}
+
+.cv .cv-item .cv-item-title {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.cv .cv-item .cv-item-text {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.cv .cv-item .cv-item-link {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(59, 49, 49);
+}
+
+.cv .cv-item ul {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
 }
