@@ -9,7 +9,8 @@ body {
 }
 
 .container {
-    width: 1024px;
+    max-width: 1024px;
+    width: 100%;
     margin: 0 auto;
     outline: 3px solid rgba(51, 12, 48, 0.6);
 }
@@ -30,6 +31,14 @@ body {
     padding: 20px 0;
 }
 
+.contacts .contacts-img {
+    width: 250px;
+    height: 250px;
+}
+
+.contacts .contacts-img img {
+    width: 100%;
+}
 .contacts .contacts-info .contacts-info-title {
     margin-top: 15px;
     font-size: 35px;
@@ -104,4 +113,31 @@ footer ul a{
     font-size: 15px;
     font-weight: 400;
     color: white;
+}
+
+@media (max-width: 740px) {
+    .contacts .contacts-info .contacts-info-title {
+        font-size: 25px;
+    }
+    .contacts .contacts-info .contacts-wrapper-item .contacts-wrapper-title {
+        font-size: 20px;
+    }
+    .contacts .contacts-info .contacts-wrapper-item .contacts-wrapper-text {
+        font-size: 18px;
+    }
+    .contacts .contacts-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (max-width: 600px) {
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cv .cv-item .cv-item-text {
+        text-align: justify;
+    }
 }
