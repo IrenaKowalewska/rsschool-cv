@@ -15,3 +15,12 @@ I started learning HTML and CSS with HTMLAcademy. In February 2020 I got to know
 - BEM;
 - Git;
 - Avocode, Photoshop, Figma, Zeplin.
+## Code examples:
+My first coding example [here](https://github.com/IrenaKowalewska/IrenaKowalewska.github.io)
+## Education:
+- 2008-2013 BSTU (engineer);
+- Udemy;
+- HTMLAcademy.
+## English level:
+- Intermediate (B1)( but I keep learn English to this day);
+- Polish (A2).
