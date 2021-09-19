@@ -10,30 +10,40 @@
 <body>
     <div class="container">
         <header class="contacts">
-            <div class="contacts-img">
-                <img src="ava.jpg" alt="Photo-IrynaKavaleuskaya">
-            </div>
-            <div class="contacts-info">
-                <h1 class="contacts-info-title">Iryna Kavaleuskaya</h1>
-                <div class="contacts-wrapper">
-                    <div class="contacts-wrapper-item">
-                        <div class="contacts-wrapper-title">mob:</div>
-                        <a href="tel:+375336384616" class="contacts-wrapper-text">+375336384616</a>
-                    </div>
-                    <div class="contacts-wrapper-item">
-                        <div class="contacts-wrapper-title">email:</div>
-                        <a href="mailto:zkioz4004@gmail.com" class="contacts-wrapper-text">zkioz4004@gmail.com</a>
+            <nav class="navigation">
+                <ul class="menu__list">
+                    <li class="menu__list-item"><a href="#summary" class="menu__list-link">About me</a></li>
+                    <li class="menu__list-item"><a href="#skills" class="menu__list-link">skills</a></li>
+                    <li class="menu__list-item"><a href="#education" class="menu__list-link">EDUCATION</a></li>
+                    <li class="menu__list-item"><a href="#contacts" class="menu__list-link">contacts</a></li>
+                </ul>
+            </nav>
+            <div class="contacts-block">
+                <div class="contacts-img">
+                    <img src="ava.jpg" alt="Photo-IrynaKavaleuskaya">
+                </div>
+                <div class="contacts-info">
+                    <h1 class="contacts-info-title">Iryna Kavaleuskaya</h1>
+                    <div class="contacts-wrapper">
+                        <div class="contacts-wrapper-item">
+                            <div class="contacts-wrapper-title">mob:</div>
+                            <a href="tel:+375336384616" class="contacts-wrapper-text">+375336384616</a>
+                        </div>
+                        <div class="contacts-wrapper-item">
+                            <div class="contacts-wrapper-title">email:</div>
+                            <a href="mailto:zkioz4004@gmail.com" class="contacts-wrapper-text">zkioz4004@gmail.com</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </header> 
         <main class="cv">
-            <div class="cv-item">
+            <div class="cv-item" id="summary">
                 <h2 class="cv-item-title">Summary:</h2>
                 <p class="cv-item-text">I started learning HTML and CSS with HTMLAcademy. In February 2020 I got to know about The Rolling Scopes School. I am very interested in this course and job in future. I want to become a professional front-end developer.</p>
             </div>
             <div class="divider"></div>
-            <div class="cv-item">
+            <div class="cv-item" id="skills">
                 <h2 class="cv-item-title">Skills:</h2>
                 <ul>
                     <li>HTML5;</li>
@@ -54,7 +64,7 @@
                 <a target="blank" class="cv-item-link" href="https://github.com/IrenaKowalewska/IrenaKowalewska.github.io">My first coding example here</a>
             </div>
             <div class="divider"></div>
-            <div class="cv-item">
+            <div class="cv-item" id="education">
                 <h2 class="cv-item-title">Education:</h2>
                 <ul>
                     <li>2008-2013 BSTU (engineer);</li>
@@ -71,7 +81,7 @@
                 </ul>
             </div>
         </main>
-        <footer>
+        <footer id="contacts">
             <h2>Iryna Kavaleuskaya</h2>
             <ul>
                 <li><a href="tel:+375336384616">mob:+375 33 6384676</a></li>
