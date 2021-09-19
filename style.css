@@ -33,10 +33,16 @@ body {
     background: linear-gradient(0.01deg, rgba(71, 8, 85, 0.6) 0.01%, rgba(0, 0, 0, 0.9) 95.44%);
 }
 
+.hamburger {
+    display: none;
+}
+
 .menu__list {
     display: flex;
     list-style: none;
     justify-content: space-between;
+    background: linear-gradient(0.01deg, rgba(71, 8, 85) 0.01%, rgba(0, 0, 0, 0.2) 95.44%);
+    padding: 5px;
 }
 
 .menu__list-link {
@@ -162,6 +168,44 @@ footer ul a{
     .contacts .contacts-img {
         width: 200px;
         height: 200px;
+    }
+
+    .menu__list {
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        padding: 10px;
+        top: 0;
+        left: -100%;
+        z-index: 2;
+        width:300px;
+        height: 250px;
+        border-radius: 10% 80% 40% 10%
+    }
+
+    .menu__list.active {
+        left: 0;
+        transition: 0.8s ease-out;
+    }
+    .hamburger {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        height: 19px;
+        top: 30px;
+        right: 30px;
+        cursor: pointer;
+    }
+    .hamburger span {
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #ffffff;
+    }
+    .hamburger span.long {
+        width: 36px;
     }
 }
 @media (max-width: 600px) {
