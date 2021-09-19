@@ -6,8 +6,10 @@
     <title>Iryna Kavaleuskaya</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
 </head>
 <body>
+    <div class="overlay"></div>
     <div class="container">
         <header class="contacts">
             <div class="hamburger">
@@ -67,11 +69,14 @@
             <div class="cv-item">
                 <h2 class="cv-item-title">Code examples:</h2>
                 <p>Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.</p>
-                <pre><code>
-                    function even_or_odd(number) {
-                        return number % 2 === 0 ? "Even" : "Odd";
-                    }
-                </code></pre>
+    <pre><code>
+function isEvenOrOdd(number) {
+    let isEvenOrOdd = 
+        number % 2 === 0 ? 
+        "Even" : "Odd"
+    return isEvenOrOdd;
+}
+    </code></pre>
             </div>
             <div class="divider"></div>
             <div class="cv-item" id="education">
