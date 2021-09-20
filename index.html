@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iryna Kavaleuskaya</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <header class="contacts">
+            <div class="hamburger">
+                <span></span>
+                <span class="long"></span>
+                <span></span>
+            </div>
+            <nav class="navigation">
+                <ul class="menu__list">
+                    <li class="menu__list-item"><a href="#summary" class="menu__list-link">About me</a></li>
+                    <li class="menu__list-item"><a href="#skills" class="menu__list-link">skills</a></li>
+                    <li class="menu__list-item"><a href="#education" class="menu__list-link">EDUCATION</a></li>
+                    <li class="menu__list-item"><a href="#contacts" class="menu__list-link">contacts</a></li>
+                </ul>
+            </nav>
+            <div class="contacts-block">
+                <div class="contacts-img">
+                    <img src="ava.jpg" alt="Photo-IrynaKavaleuskaya">
+                </div>
+                <div class="contacts-info">
+                    <h1 class="contacts-info-title">Iryna Kavaleuskaya</h1>
+                    <div class="contacts-wrapper">
+                        <div class="contacts-wrapper-item">
+                            <div class="contacts-wrapper-title">mob:</div>
+                            <a href="tel:+375336384616" class="contacts-wrapper-text">+375336384616</a>
+                        </div>
+                        <div class="contacts-wrapper-item">
+                            <div class="contacts-wrapper-title">email:</div>
+                            <a href="mailto:zkioz4004@gmail.com" class="contacts-wrapper-text">zkioz4004@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header> 
+        <main class="cv">
+            <div class="cv-item" id="summary">
+                <h2 class="cv-item-title">Summary:</h2>
+                <p class="cv-item-text">I started learning HTML and CSS with HTMLAcademy. In February 2020 I got to know about The Rolling Scopes School. I am very interested in this course and job in future. I want to become a professional front-end developer.</p>
+            </div>
+            <div class="divider"></div>
+            <div class="cv-item" id="skills">
+                <h2 class="cv-item-title">Skills:</h2>
+                <ul>
+                    <li>HTML5;</li>
+                    <li>CSS3;</li>
+                    <li>SASS/SCSS;</li>
+                    <li>JavaScript;</li>
+                    <li>React(basics knowledge);</li>
+                    <li>Angular;</li>
+                    <li>Bootstrap;</li>
+                    <li>BEM;</li>
+                    <li>Git;</li>
+                    <li>Avocode, Photoshop, Figma, Zeplin.</li>
+                </ul>
+            </div>
+            <div class="divider"></div>
+            <div class="cv-item">
+                <h2 class="cv-item-title">Code examples:</h2>
+                <p>Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.</p>
+    <pre><code>
+function isEvenOrOdd(number) {
+    let isEvenOrOdd = 
+        number % 2 === 0 ? 
+        "Even" : "Odd"
+    return isEvenOrOdd;
+}
+    </code></pre>
+            </div>
+            <div class="divider"></div>
+            <div class="cv-item" id="education">
+                <h2 class="cv-item-title">Education:</h2>
+                <ul>
+                    <li>2008-2013 BSTU (engineer);</li>
+                    <li>Udemy;</li>
+                    <li>HTMLAcademy.</li>
+                </ul>
+            </div>
+            <div class="divider"></div>
+            <div class="cv-item">
+            <h2 class="cv-item-title">English level:</h2>
+                <ul>
+                    <li>Intermediate (B1) (but I keep learn English to this day);</li>
+                    <li>Polish (B1).</li>
+                </ul>
+            </div>
+        </main>
+        <footer id="contacts">
+            <h2>Iryna Kavaleuskaya</h2>
+            <ul>
+                <li><a href="tel:+375336384616">mob:+375 33 6384676</a></li>
+                <li><a href="mailto:zkioz4004@gmail.com">zkioz4004@gmail.com</a></li>
+                <li><a target="blank" href="https://github.com/IrenaKowalewska">My github</a></li>
+                <li><a target="blank" href="https://rs.school/"><img src="./rs_school_js.svg" alt="logo rs_school_js" width="100" height="35">,2021Q3</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
